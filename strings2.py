@@ -75,3 +75,9 @@ print([int(val) for val in values])
 
 number = "9,223,372,036,854,775,807"
 print(number[1::4]) #,,,,,,
+
+print()
+
+test = "10:T,20:B,15:F,34:S"
+print(test[::5])
+print(test[::-1])
